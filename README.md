@@ -26,7 +26,8 @@
 
 1. **从 GitHub 下载Release版本压缩：**
    ```bash
-   git clone https://github.com/threehammers-group/SwordfishSuite.git
+   下载:https://github.com/threehammers-group/SwordfishSuite/releases
+   解压
    cd Swordfish
    ./Swordfish.exe
    ```
