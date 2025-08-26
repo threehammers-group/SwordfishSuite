@@ -47,17 +47,23 @@
 
 3. **开始探索！**
    点击工具栏开始按钮，拦截流量，重放请求，使用负载测试器，或者开发新插件定制自己的专属功能。
-
+   
+   主界面
    ![主界面](./screen/screen1.png)
 
+   数据重发
    ![数据重发](./screen/screen2.png)
 
+   负载测试
    ![负载](./screen/screen3.png)
 
+   数据包拦截
    ![数据拦截](./screen/screen4.png)
 
+   APP实时抓包
    ![APP抓包](./screen/screen5.png)
 
+   python自开发插件示例
    ![自定义插件](./screen/screen6.png)   
    
 
