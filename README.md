@@ -18,10 +18,10 @@
 
 ### 前置要求
 
-在运行 SwordfishSuite 之前，如果你需要自己开发插件：
+在运行 SwordfishSuite 之前，如果你需要启用插件：
 - **Python** 3.10 或更高版本
 - `pip` 包管理工具
-
+pip install grpcio grpcio-tools protobuf numpy
 ### 安装
 
 1. **从 GitHub 下载Release版本压缩：**
@@ -90,7 +90,7 @@
 ## 🙏 致谢
 
 感谢 Burp Suite、mitmproxy、Reqable等优秀工具带来的灵感。
-特别感谢 Reqable开源的re_editor
+特别感谢 Reqable开源的re_editor。
 感谢所有贡献者和使用者！
 
 ---
