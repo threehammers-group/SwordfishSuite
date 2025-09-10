@@ -474,11 +474,11 @@ def description() -> dict:
         "layout": {
             "headers": [
                 {
-                    "name": "列1",
+                    "name": "URL",
                     "index": 0,
                 },
                 {
-                    "name": "列2",
+                    "name": "状态码",
                     "index": 1,
                 }
             ]
