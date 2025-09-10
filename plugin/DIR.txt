@@ -1,0 +1,7 @@
+css
+js
+admin
+manage
+ueditor
+test
+login
