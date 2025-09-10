@@ -1,0 +1,155 @@
+{
+	"qcloud_app_id": {
+		"reg": "\\b(?<=[a-z0-9-]-)\\d+(?=\\.cos\\.[a-zA-Z-]+\\.myqcloud.com)\\b",
+		"title": "腾讯云COS APPID", "company": "深圳市腾讯计算机系统有限公司",
+		"homepage": "https://cloud.tencent.com/", "address": "广东省深圳市"
+	},
+	"qcloud_ak_id": {
+		"_reg": "(?<=[\"|'])AKID[a-zA-Z0-9]{32}(?=[\"|'])",
+		"reg": "\\bAKID[A-Za-z\\d]{13,40}\\b",
+		"title": "腾讯云ACCESSKEY ID", "company": "深圳市腾讯计算机系统有限公司",
+		"homepage": "https://cloud.tencent.com/", "address": "广东省深圳市"
+	},
+	"qcloud_api_gateway_appkey": {
+		"reg": "\\bAPID[a-zA-Z0-9]{32,42}\\b",
+		"title": "腾讯云 API网关 APPKEY", "company": "深圳市腾讯计算机系统有限公司",
+		"homepage": "https://cloud.tencent.com/", "address": "广东省深圳市"
+	},
+	"aliyun_ak_id": {
+		"_reg": "(?<=[\"|'])LTAI[a-zA-Z0-9]{20}(?=[\"|'])",
+		"reg": "\\bLTAI[A-Za-z\\d]{12,30}\\b",
+		"title": "阿里云ACCESSKEY ID", "company": "阿里云计算有限公司",
+		"homepage": "https://www.aliyun.com/", "address": "浙江省杭州市"
+	},
+	"aliyun_hk_ak_id": {
+		"_reg": "(?<=[\"|'])Hk7h[a-zA-Z0-9]{12}(?=[\"|'])",
+		"reg": "\\bHk7h[A-Za-z\\d]{12,30}\\b",
+		"title": "香港阿里云ACCESSKEY ID", "company": "阿里云计算有限公司",
+		"homepage": "https://www.aliyun.com/", "address": "浙江省杭州市"
+	},
+	"jdcloud_ak_id": {
+		"reg": "\\bJDC_[0-9A-Z]{25,40}\\b",
+		"title": "京东云ACCESSKEY ID", "company": "京东云计算有限公司",
+		"homepage": "https://www.jdcloud.com/", "address": "江苏省宿迁市"
+	},
+	"kingsoft_ak_id": {
+		"reg": "\\bAKLT[a-zA-Z0-9-_]{16,28}\\b",
+		"title": "金山云ACCESSKEY ID", "company": "北京金山云网络技术有限公司",
+		"homepage": "https://www.ksyun.com/", "address": "北京市"
+	},
+	"volcanoengine_ak_id": {
+		"reg": "\\b(?:AKLT|AKTP)[a-zA-Z0-9]{35,50}\\b",
+		"title": "火山引擎ACCESSKEY ID", "company": "北京火山引擎科技有限公司",
+		"homepage": "https://www.volcengine.com/", "address": "北京市"
+	},
+	"aws_ak_id": {
+		"reg": "\\b(A3T[A-Z0-9]|AKIA|AGPA|AIDA|AROA|AIPA|ANPA|ANVA|ASIA)[A-Z0-9]{16}\\b",
+		"title": "亚马逊ACCESSKEY ID", "company": "",
+		"homepage": "https://aws.amazon.com/", "address": ""
+	},
+	"gcp_ak_id": {
+		"reg": "\\bAIza[0-9A-Za-z_\\-]{35}\\b",
+		"title": "谷歌云ACCESSKEY ID", "company": "",
+		"homepage": "https://cloud.google.com/", "address": ""
+	},
+	"ibm_ak_id": {
+		"reg": "\\bIBM[A-Za-z0-9]{10,40}\\b",
+		"title": "IBM Cloud ACCESSKEY ID", "company": "",
+		"homepage": "", "address": ""
+	},
+	"ltc_ak_id": {
+		"reg": "\\bLTC[A-Za-z0-9]{10,60}\\b",
+		"title": "联通云ACCESSKEY ID", "company": "",
+		"homepage": "", "address": ""
+	},
+	"wechat_appid": {
+		"reg": "\\bwx[a-z0-9]{15,18}\\b",
+		"title": "微信 APPID", "company": "深圳市腾讯计算机系统有限公司",
+		"homepage": "https://www.tencent.com/", "address": "广东省深圳市"
+	},
+	"wechat_corpid": {
+		"reg": "\\bww[a-z0-9]{15,18}\\b",
+		"title": "企业微信 corpid", "company": "深圳市腾讯计算机系统有限公司",
+		"homepage": "https://www.tencent.com/", "address": "广东省深圳市"
+	},
+	"wechat_id": {
+		"reg": "\\bgh_[a-z0-9]{11,13}\\b",
+		"title": "微信公众号", "company": "深圳市腾讯计算机系统有限公司",
+		"homepage": "https://www.tencent.com/", "address": "广东省深圳市"
+	},
+	"url_53kf": {
+		"reg": "\\b(?<=https://tb\\.53kf\\.com/code/client/)[a-zA-Z0-9]+(?=/1\\?device=[a-zA-Z0-9]*)\\b",
+		"title": "53快服ID号", "company": "浙江快服集团有限公司",
+		"homepage": "https://www.53kf.com/", "address": "浙江省杭州市"
+	},
+	"url_meiqia": {
+		"_reg": "(?<=https://new-api\\.meiqia\\.com/sdk/statistics\\?(.+&)*ent_id=)\\d+",
+		"reg": "\\b(?<=https://new-api\\.meiqia\\.com/sdk/statistics\\?ent_id=)\\d+\\b",
+		"title": "美洽客服企业ID", "company": "成都美洽网络科技有限公司",
+		"homepage": "https://www.meiqia.com/", "address": "四川省成都市"
+	},
+	"url_wechat": {
+		"reg": "\\b(?<=https://qyapi\\.weixin\\.qq\\.com/cgi-bin/webhook/send\\?key=)[a-zA-Z0-9\\-]{25,50}\\b",
+		"title": "企业微信webhook", "company": "深圳市腾讯计算机系统有限公司",
+		"homepage": "https://www.tencent.com/", "address": "广东省深圳市"
+	},
+	"url_dingtalk": {
+		"reg": "\\b(?<=https://oapi\\.dingtalk\\.com/robot/send\\?access_token=)[a-z0-9]{50,80}\\b",
+		"title": "钉钉webhook", "company": "钉钉科技有限公司",
+		"homepage": "https://www.dingtalk.com/", "address": "浙江省杭州市"
+	},
+	"url_feishu": {
+		"reg": "\\b(?<=https://open\\.feishu\\.cn/open-apis/bot/v2/hook/)[a-z0-9\\-]{25,50}\\b",
+		"title": "飞书webhook", "company": "北京飞书科技有限公司",
+		"homepage": "https://www.feishu.cn/", "address": "北京市"
+	},
+	"agora_app_id": {
+		"disabled": 1,
+		"_remark": "python正则`(?<=)`的内容必须是固定长度，废弃",
+		"reg": "\\b(?<=RtcEngine\\.create\\(([\\.\\(\\)]+),(\\s*)\")[A-Za-z\\d]*(?=\")\\b",
+		"title": "声网AppID", "company": "",
+		"homepage": "https://www.shengwang.cn/", "address": "北京市"
+	},
+	"goog_ak_id": {
+		"disabled": 1,
+		"reg": "\\bGOOG[A-Za-z0-9]{10,30}\\b",
+		"title": "谷歌云ACCESSKEY ID", "company": "",
+		"homepage": "https://cloud.google.com/", "address": ""
+	},
+	"azure_ak_id": {
+		"disabled": 1,
+		"reg": "\\bAZ[A-Za-z0-9]{34,40}\\b",
+		"title": "微软Azure ACCESSKEY ID", "company": "",
+		"homepage": "", "address": ""
+	},
+	"uc_ak_id": {
+		"disabled": 1,
+		"reg": "\\bUC[A-Za-z0-9]{10,40}\\b",
+		"title": "UCloud ACCESSKEY ID", "company": "",
+		"homepage": "", "address": ""
+	},
+	"qy_ak_id": {
+		"disabled": 1,
+		"reg": "\\bQY[A-Za-z0-9]{10,40}\\b",
+		"title": "青云QingCloud ACCESSKEY ID", "company": "",
+		"homepage": "", "address": ""
+	},
+	"yd_ak_id": {
+		"disabled": 1,
+		"reg": "\\bYD[A-Za-z0-9]{10,60}\\b",
+		"title": "移动云ACCESSKEY ID", "company": "",
+		"homepage": "", "address": ""
+	},
+	"yy_ak_id": {
+		"disabled": 1,
+		"reg": "\\bYY[A-Za-z0-9]{10,40}\\b",
+		"title": "用友云ACCESSKEY ID", "company": "",
+		"homepage": "", "address": ""
+	},
+	"ctc_ak_id": {
+		"disabled": 1,
+		"reg": "\\bCTC[A-Za-z0-9]{10,60}\\b",
+		"title": "天翼云ACCESSKEY ID", "company": "",
+		"homepage": "", "address": ""
+	}
+}
