@@ -1,4 +1,4 @@
-# SwordfishSuite（第一版将很快发布）
+# SwordfishSuite（v0.1.0 2025-09-10）
 
 [![GitHub license](https://img.shields.io/github/license/threehammers-group/SwordfishSuite)](https://github.com/threehammers-group/SwordfishSuite)
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org)
