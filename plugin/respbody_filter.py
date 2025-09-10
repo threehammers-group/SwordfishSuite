@@ -48,7 +48,7 @@ def description() -> dict:
         "layout": {
             "headers": [
                 {
-                    "name": "关键词",
+                    "name": "关键信息",
                     "index": 1,
                 },
                 {
