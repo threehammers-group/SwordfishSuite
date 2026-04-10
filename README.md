@@ -1,4 +1,4 @@
-# SwordfishSuite（v0.1.2 2026-04-10）
+# SwordfishSuite（v0.1.2 2026-04-10,大幅降低资源占用）
 
 [![GitHub license](https://img.shields.io/github/license/threehammers-group/SwordfishSuite)](https://github.com/threehammers-group/SwordfishSuite)
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org)
